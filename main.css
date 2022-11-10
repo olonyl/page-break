@@ -1,0 +1,14 @@
+.first-page{
+    color: red;
+}
+.second-page{
+    color: green;
+}
+.third-page{
+    color: blue;
+}
+@media print {
+    .page-break {
+        page-break-after: always;
+    }
+  }
